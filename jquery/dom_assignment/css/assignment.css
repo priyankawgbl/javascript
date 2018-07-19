@@ -1,0 +1,30 @@
+.main {
+  float: left;
+}
+.switch_board {
+
+  background-color: red;
+  height: 400px;
+  width: 400px;
+}
+.switch {
+      margin-left: 150px;
+      margin-top: 150px;
+      background-color: #ffff00;
+}
+td {
+  width: 200px;
+  height: 20px;
+  border: solid; 1px;
+  border-spacing: 1px;
+}
+tr:nth-child(even) {
+  background-color: black;
+  width: 200px;
+  height: 20px;
+}
+tr:nth-child(odd) {
+  background-color: #d3d3d3;
+  width: 200px;
+  height: 20px;
+}
